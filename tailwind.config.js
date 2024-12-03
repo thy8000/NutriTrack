@@ -13,5 +13,12 @@ module.exports = {
          transparent: colors.transparent,
          slate: colors.slate,
       },
+      extend: {
+         colors: {
+            neutral: {
+               600: '#fafcff',
+            },
+         },
+      },
    },
 }
