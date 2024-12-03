@@ -46,3 +46,12 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Vendor
+/vendor/
+
+# node_modules
+/node_modules/
+
+# Assets
+/public/assets/output/
