@@ -16,9 +16,9 @@ class EnqueueScripts
 
    public function register_global_scripts()
    {
-      wp_enqueue_style('all', get_theme_file_uri('assets/css/all.css'));
+      wp_enqueue_style('all', get_theme_file_uri('public/assets/output/all.min.css'));
 
-      wp_enqueue_script('all', get_theme_file_uri('assets/js/all.min.js'), false, null, [
+      wp_enqueue_script('all', get_theme_file_uri('public/assets/output/all.min.js'), false, null, [
          'strategy' => 'defer',
          'in_footer' => false,
       ]);
