@@ -55,3 +55,6 @@ wp-config.php
 
 # Assets
 /public/assets/output/
+
+# Sites para referência
+sites-para-referencia.txt
